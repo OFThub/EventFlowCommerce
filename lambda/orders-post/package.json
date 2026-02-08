@@ -1,0 +1,15 @@
+{
+  "name": "@eventflow/lambda-orders-post",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@eventflow/common": "*",
+    "@eventflow/event-bus": "*",
+    "@aws-sdk/client-dynamodb": "^3.478.0",
+    "@aws-sdk/lib-dynamodb": "^3.478.0",
+    "uuid": "^9.0.1"
+  }
+}

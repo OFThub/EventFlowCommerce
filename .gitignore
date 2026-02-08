@@ -135,17 +135,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-node_modules/
-dist/
-build/
-*.log
-.env
-.env.local
-*.tsbuildinfo
-coverage/
-.DS_Store
-cdk.out/
-*.js.map
-.terraform/
-*.tfstate
-*.tfstate.backup
+# YAML files
+*.yml
+*.yaml

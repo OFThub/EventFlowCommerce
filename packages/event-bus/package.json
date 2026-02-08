@@ -1,0 +1,19 @@
+{
+  "name": "@eventflow/event-bus",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aws-sdk/client-eventbridge": "^3.478.0",
+    "@aws-sdk/client-sqs": "^3.478.0",
+    "@google-cloud/pubsub": "^4.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.7"
+  }
+}
