@@ -34,5 +34,9 @@
   "engines": {
     "node": ">=20.0.0",
     "npm": ">=10.0.0"
+  },
+  "dependencies": {
+    "aws": "^0.0.3-2",
+    "aws-lambda": "^1.0.7"
   }
 }
